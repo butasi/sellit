@@ -6,11 +6,11 @@ export default defineConfig({
     defaultLanguageCode: 'EN',
     storeDomain:
       // @ts-ignore
-      Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'hydrogen-preview.myshopify.com',
+      Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'sellitcooperative.myshopify.com',
     storefrontToken:
       // @ts-ignore
       Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN ||
-      '3b580e70970c4528da70c98e097c2fa0',
+      '33c483a6f2b73d6feaf5d5d4f64a3f44',
     privateStorefrontToken:
       // @ts-ignore
       Oxygen?.env?.PRIVATE_STOREFRONT_API_TOKEN,
